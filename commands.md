@@ -11,3 +11,6 @@
 
 ## Synchronizing with GitHub
 'git push' sends local commits to the remote repository.
+
+## Branch Workflow
+A branch allows development work to happen separately from the main branch.
