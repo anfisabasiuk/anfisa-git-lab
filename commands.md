@@ -14,3 +14,6 @@
 
 ## Branch Workflow
 A branch allows development work to happen separately from the main branch.
+
+## Git Status
+'git status' shows the current state of the working drectory and staging area
