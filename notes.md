@@ -59,3 +59,8 @@ Command: git push
 
 Delete the merged local branch
 Command: git branch -d <branch-name>
+
+## Remote Workflow
+git push = send local commits to GitHub.
+git fetch = get information about new remote commits without changing local files.
+get pull = get remote changes and update the current local branch.
