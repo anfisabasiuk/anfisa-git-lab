@@ -38,3 +38,24 @@ main can be ahead of origin/main
 
 After push:
 main and origin/main are synchronized
+
+## Branch Workflow
+Create and switch to a new branch
+Command: git switch -c <branch-name>
+
+Make changes and create a commit:
+git status
+git add <file>
+git commit -m "message"
+
+Switch back to main
+Command: git switch main
+
+Merge the branch into main
+Command: git merge <branch-name>
+
+Push main to GitHub
+Command: git push
+
+Delete the merged local branch
+Command: git branch -d <branch-name>
