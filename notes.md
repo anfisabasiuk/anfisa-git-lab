@@ -64,3 +64,16 @@ Command: git branch -d <branch-name>
 git push = send local commits to GitHub.
 git fetch = get information about new remote commits without changing local files.
 get pull = get remote changes and update the current local branch.
+
+## Pull Request Workflow
+
+1. Create and switch to a feature branch.
+2. Make changes and create a commit.
+3. Push the feature branch to GitHub.
+4. create a Pull Request from the feature branch into main. 
+5. Review the changed files.
+6. Merge the Pull Request on GitHub.
+7. Switch to the local main branch.
+8. Fetch remote updates.
+9. Pull the changes into the local main branch.
+10. Verify that the local and remote branches are synchronized.
