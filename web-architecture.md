@@ -40,3 +40,16 @@ User
 - HTTP Method: describes the action requested, for example GET.
 - API Endpoint: a specific address exposed by an API, for example /api/flights.
 - HTTP Status Code: describes the result of an HTTP request, for example 200 OK.
+
+## Architecture Diagram
+
+```mermaid
+flowchart LR
+    U[User] --> F[Frontend / Browser]
+    F -->|HTTP Request| B[Backend API]
+    B --> L[Application Logic]
+    L --> D[(Database)]
+    D --> L
+    L -->|HTTP Response| F
+    F --> U
+```
